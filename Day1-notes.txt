@@ -1,0 +1,54 @@
+
+https://github.com/Training2017/PCF-OCT
+
+
+Download PCF_Account_Creation.pdf --> As per the instruction create one pivotal account.
+
+
+1. use Capgemini Email
+2. Your mobile number for validation
+
+
+
+3 ways:
+=======
+1. Web console
+2. Command prompt --console
+3. IDE -- Spring Tool Suite / Eclipse
+
+
+cf push <app-name> -i <num-instance> 
+		-m <memory>
+		-n <node>
+		-p <path of war file>
+
+cf push spring-music -i 1 -m 1024m -n spring-music-capg-101 -p spring-music.war
+
+
+set http_proxy=<userid>:<password>@inpunwbs02-wcg.corp.capgemini.com:8080
+
+
+cf login -a api.run.pivotal.io
+
+username: <pivotal_user>
+password: <password>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ip - 52.87.94.143 - STS
